@@ -4,7 +4,6 @@ ScalpelHelper
 ![demo](https://github.com/Nstd/ScalpelHelper/blob/master/screenshots/sample.gif)
 
 ## Usage
---------------------
 
 ### Gradle
 ``` gradle
@@ -35,13 +34,10 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## Version
---------------------
 
 ### v0.0.1
 
 ## Thanks
---------------------
-
 * [Scalpel - Jake Worthon](https://github.com/JakeWharton/scalpel)
 * [FloatingMenu - rjsvieira](https://github.com/rjsvieira/floatingMenu)
 * [icon](http://www.iconfont.cn/collections/detail?spm=a313x.7781069.1998910419.d9df05512&cid=3191)
