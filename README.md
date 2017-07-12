@@ -3,17 +3,17 @@ ScalpelHelper
 
 ![demo](https://github.com/Nstd/ScalpelHelper/blob/master/screenshots/sample.gif)
 
-##Usage
+## Usage
 --------------------
 
-###Gradle
+### Gradle
 ``` gradle
 compile 'com.jakewharton.scalpel:scalpel:1.1.2'
 compile 'com.github.rjsvieira:floatingMenu:1.1.0'
 compile 'com.github.nstd:scalpelhelper:0.0.1'
 ```
 
-###Java
+### Java
 Override setContentView() to inject scalpel
 
 ``` java
@@ -34,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-##Version
+## Version
 --------------------
 
-###v0.0.1
+### v0.0.1
 
-##Thanks
+## Thanks
 --------------------
 
 * [Scalpel - Jake Worthon](https://github.com/JakeWharton/scalpel)
