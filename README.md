@@ -35,7 +35,12 @@ public class MainActivity extends AppCompatActivity {
 
 ## Version
 
+
+### v0.0.2
+change minSDK to 14
+
 ### v0.0.1
+init
 
 ## Thanks
 * [Scalpel - Jake Worthon](https://github.com/JakeWharton/scalpel)

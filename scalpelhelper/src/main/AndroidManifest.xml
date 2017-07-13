@@ -1,5 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.nstd.scalpelhelper">
+    package="com.github.nstd.scalpelhelper"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23"
+        tools:overrideLibrary="rjsv.floatingmenu" />
 
     <application android:allowBackup="true" android:label="@string/app_name"
         android:supportsRtl="true">
