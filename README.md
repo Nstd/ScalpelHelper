@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
+## TODO
+
+- [ ] Separate FloatingMenu to add more debug function
+
 ## Version
 
 ### v0.1
