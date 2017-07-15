@@ -1,5 +1,7 @@
 ScalpelHelper
 --------------------
+![current version](https://img.shields.io/badge/Current%20Version-0.1-brightgreen.svg)
+![minSdkVersion](https://img.shields.io/badge/minSdkVersion-14-blue.svg)
 
 ![demo](https://github.com/Nstd/ScalpelHelper/blob/master/screenshots/sample.gif)
 
@@ -7,9 +9,7 @@ ScalpelHelper
 
 ### Gradle
 ``` gradle
-compile 'com.jakewharton.scalpel:scalpel:1.1.2'
-compile 'com.github.rjsvieira:floatingMenu:1.1.0'
-compile 'com.github.nstd:scalpelhelper:0.0.1'
+compile 'com.github.nstd:scalpelhelper:0.1'
 ```
 
 ### Java
@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
 ## Version
 
+### v0.1
+fix dataBinding crash
 
 ### v0.0.2
 change minSDK to 14
