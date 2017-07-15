@@ -5,6 +5,7 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.github.nstd.scalpelhelper.ScalpelHelper;
@@ -21,7 +22,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
-        Toast.makeText(this, "mBinding is null = " + (mBinding == null), Toast.LENGTH_SHORT).show();
+        mBinding.tvText.setText(mBinding.tvText.getText().toString() + " Scalpel");
     }
 
     @Override
